@@ -8,7 +8,7 @@ public class Main
 
         String name = null;
 
-        runtimeException(myService, name);
+        //runtimeException(myService, name);
 
         exception_with_try_catch(myService, name);
 
