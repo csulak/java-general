@@ -7,7 +7,7 @@ public class Matrix {
 
     public static void main(String[] args) {
 
-        float asd = 22/3;
+        float asd = 22;
         System.out.println((asd));
     }
 }
