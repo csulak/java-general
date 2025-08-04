@@ -1,4 +1,4 @@
-package examples.stackAndHead;
+package examples.stackAndHeap;
 
 /**
  * En este ejemplo aprendo un poco el alcance de los objetos y las variables en cuanto a stack y heap.

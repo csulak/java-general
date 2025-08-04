@@ -1,4 +1,4 @@
-package examples.stackAndHead;
+package examples.stackAndHeap;
 
 public class Clase {
     public int valor;
