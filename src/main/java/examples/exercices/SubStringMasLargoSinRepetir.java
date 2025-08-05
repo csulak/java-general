@@ -20,30 +20,27 @@ public class SubStringMasLargoSinRepetir {
      */
     public static void main(String[] args)
     {
-
-
         String s = "abaaalokj";
         HashSet<Character> set = new HashSet<>();
 
-        int left = 0, maxLen = 0;
-        for (int right = 0; right < s.length(); right++) {
+        int left = 0;
+        int maxLen = 0;
+
+        for (int right = 0; right < s.length(); right++)
+        {
 
             char current = s.charAt(right);
 
-        // Si el caracter ya está en la ventana, movemos 'left' hasta eliminarlo
-        while (set.contains(current)) {
-            set.remove(s.charAt(left));
-            left++;
+            // Si el caracter ya está en la ventana, movemos 'left' hasta eliminarlo
+            while (set.contains(current)) {
+                set.remove(s.charAt(left));
+                left++;
+            }
+
+            set.add(current);
+            maxLen = Math.max(maxLen, right - left + 1);
         }
 
-        set.add(current);
-        maxLen = Math.max(maxLen, right - left + 1);
-    }
-
         System.out.println(maxLen); ;
+    }
 }
-}
-
-
-
-
