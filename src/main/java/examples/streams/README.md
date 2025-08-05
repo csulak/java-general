@@ -43,5 +43,3 @@ En Java, las operaciones sobre streams se dividen en dos grandes categorías:
 - Esto permite construir pipelines eficientes y controlados.
 
 ---
-
-¿Listo para aprovechar el poder de los streams?
