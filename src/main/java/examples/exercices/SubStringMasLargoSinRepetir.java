@@ -20,7 +20,7 @@ public class SubStringMasLargoSinRepetir {
      */
     public static void main(String[] args)
     {
-        String s = "abaaalokj";
+        String s = "abaaalakji";
         HashSet<Character> set = new HashSet<>();
 
         int left = 0;
