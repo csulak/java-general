@@ -2,6 +2,7 @@ package examples.collections;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class LinkedListEjemplo {
 
@@ -13,6 +14,16 @@ public class LinkedListEjemplo {
         linkedList.add(53);
         linkedList.add(87);
 
-        System.out.println(linkedList.get(1));
+
+        ListIterator<Integer> it = linkedList.listIterator();
+
+        it.next();
+        it.next();
+        it.next();
+        it.next();
+        //it.previous();
+        it.remove();
+
+        System.out.println(linkedList);
     }
 }
